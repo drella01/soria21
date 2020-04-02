@@ -42,11 +42,28 @@
             max-width: 120px !important;
             display: inline-block !important;
         }
+        .bgBlack{
+            background-image: linear-gradient(to bottom right, #0000CC, #d3d3d3) !important;
+        }
+
+        li.parent>a{
+            color: #ffffff !important;
+        }
     </style>
 </head>
 <body>
+    <div class="pre-loading loadingDone">
+        <figure class="loading-logo"><img src="assets/img/logo.png" alt="ravish logo"></figure>
+        <div class="loading-animation">
+            <div class="loader-container arc-rotate2">
+                <div class="loader">
+                    <div class="arc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bodyWrap" id="app">
-        @include('layouts.header.master')
+        @include('layouts.header.master2')
         <main class="py-4">
             @yield('content')
         </main>

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row justify-content-center">
-        <div class="col-md-2">
+        <!--div class="col-md-2">
             <div class="noPad shortcodeBanners">
                 <div class="allbanners">
                     <section class="xvBanners style1 clearfix">
@@ -29,8 +29,8 @@
                     </section>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
+        </div-->
+        <div class="col-md-8">
             <section class="xvPortfolio styleLg">
                 <div class="container">
                     <!--div class="xvFilter clearfix">
@@ -232,11 +232,18 @@
                 </div>
             </section>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <section class="text-center">
                 <div class="container">
                     <ul class="products style2 style-demo1 space-30 clearfix">
                         <li class="product text-center">
+                            <div class="productInfo">
+                                <h3><a href="#">Alquílenos</a></h3>
+                                <ul class="pricestyle">
+                                    <li>Semanas</li>
+                                    <li>Meses</li>
+                                </ul>
+                            </div>
                             <div class="slideHover left">
                             </div>
                             <div class="slideHover right">
@@ -246,28 +253,47 @@
                                     <div class="slick-track" style="opacity: 1; width: 1820px; left: -520px;" role="listbox">
                                         <figure class="slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 260px;" tabindex="-1"><img src="assets/img/bag3.png" alt="Ravish Demo Content"></figure>
                                         <figure class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 260px;" tabindex="-1"><img src="assets/img/bag1.png" alt="Ravish Demo Content"></figure>
-                                        <figure class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 260px;" tabindex="-1" role="option" aria-describedby="slick-slide10"><img src="assets/img/bag2.png" alt="Ravish Demo Content"></figure>
+                                        <figure class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 260px;" tabindex="-1" role="option" aria-describedby="slick-slide10"><img src="storage/tractor.jpg" alt="Ravish Demo Content"></figure>
                                         <figure class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 260px;" tabindex="-1" role="option" aria-describedby="slick-slide11"><img src="assets/img/bag3.png" alt="Ravish Demo Content"></figure><figure class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 260px;" tabindex="-1" role="option" aria-describedby="slick-slide12"><img src="assets/img/bag1.png" alt="Ravish Demo Content"></figure>
                                         <figure class="slick-slide slick-cloned slick-center" data-slick-index="3" aria-hidden="true" style="width: 260px;" tabindex="-1"><img src="assets/img/bag2.png" alt="Ravish Demo Content"></figure>
                                         <figure class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" style="width: 260px;" tabindex="-1"><img src="assets/img/bag3.png" alt="Ravish Demo Content"></figure>
                                     </div>
                                 </div>
                             </div>
-                            <ul class="links">
+                            <!--ul class="links">
                                 <li><a href="#"><i class="xv-basic_heart"></i></a></li>
                                 <li><a class="add_to_cart_button" href="#"><i class="xv-ecommerce_cart_content"></i></a></li>
-                            </ul>
-                            <div class="productInfo">
-                                <h3><a href="#">Alquílenos</a></h3>
-                                <ul class="pricestyle">
-                                    <li>Semanas</li>
-                                    <li>Meses</li>
-                                </ul>
-                            </div>
+                            </ul-->
                         </li>
                     </ul>
                 </div>
             </section>
+            <div class="noPad shortcodeBanners">
+                <div class="allbanners">
+                    <section class="xvBanners style1 clearfix">
+                        <div class="container">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                <div class="carousel-item products style2 style-demo1 space-30 active">
+                                    <img class="d-block" src="{{ url('storage/tractor.jpg') }}" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="{{ url('storage/van.jpg') }}" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="{{ url('storage/machinery.jpg') }}" alt="Third slide">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

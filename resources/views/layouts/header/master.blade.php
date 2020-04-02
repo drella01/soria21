@@ -53,7 +53,7 @@
         <div class="row p-4">
             <div class="col-md-6">
                 <a href="" class="inline-block logo-link">
-                    <img src="{{ url('storage/carrasco.jpg') }}" alt="" style="max-width: 100%;" class="logo-image">
+                    <img src="{{ url('storage/logocarrasco.png') }}" alt="" style="max-width: 100%;" class="logo-image">
                 </a>
             </div>
             <div class="col-md-3">
