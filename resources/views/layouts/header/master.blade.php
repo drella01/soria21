@@ -103,7 +103,7 @@
                     <li class="nav-item">
                         <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/tankcontainers.png') }}" alt="" >
-                            <p><h6>Tunkcontainer</h6></p>
+                            <p><h6 style="size:100%">Tunkcontainer</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
