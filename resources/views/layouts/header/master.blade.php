@@ -83,55 +83,55 @@
         <nav class="navbar navbar-expand navbar-light clearfix bg-white shadow-sm" style="background-color:#85929e">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="">
                             <img src="{{ url('storage/icon.png') }}" alt="">
                             <p><h6>Tractor</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="">
                             <img src="{{ url('storage/icon2.png') }}" alt="" >
                             <p><h6>Truck</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon-8.png') }}" alt="" >
                             <p><h6>Tanktrailer</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/tankcontainers.png') }}" alt="" >
                             <p><h6>Tunkcontainer</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon-4.png') }}" alt="" >
                             <p><h6>Trailer</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon-3.png') }}" alt="" >
                             <p><h6>Drawbartrailer</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon-6.png') }}" alt="" >
                             <p><h6>Van</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon-9.png') }}" alt="" >
                             <p><h6>Machinery</h6></p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="button" href="" style="text-decoration:none;">
+                        <a class="button btn-nav" href="" style="text-decoration:none;">
                             <img src="{{ url('storage/icon_parts.png') }}" alt="" >
                             <p><h6>Parts</h6></p>
                         </a>

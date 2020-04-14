@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\VehicleType;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class VehicleTypeController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -13,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -21,8 +22,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(VehicleType $types, $id)
     {
-        return view('home');
+        $type = $types->whereName($id)->first();
+        return view('vehicles.index', compact('type'));
     }
 }

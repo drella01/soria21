@@ -10,8 +10,16 @@
 <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
 <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 <link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="public/css/app.css">
 
 <style>
+        .btn-nav{
+            width: 80px;
+            height: 80px;
+            background-color: #ffffff;
+            text-decoration:none;
+        }
+
         .banner-logo>img {
             width: 200px;
             margin-top: 10px;
