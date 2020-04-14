@@ -52,18 +52,6 @@
     </style>
 </head>
 <body>
-    <div class="pre-loading loadingDone">
-        <figure class="loading-logo"><img src="assets/img/logo.png" alt="ravish logo"></figure>
-        <div class="loading-animation">
-            <div class="loader-container arc-rotate2">
-                <div class="loader">
-                    <div class="arc">
-                        <figure class="loading-logo"><img src="assets/img/logo.png" alt="ravish logo"></figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="bodyWrap" id="app">
         @include('layouts.header.master')
         <main class="py-4">
