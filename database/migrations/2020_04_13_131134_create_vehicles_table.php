@@ -20,7 +20,7 @@ class CreateVehiclesTable extends Migration
             $table->string('model')->nullable();
             $table->string('registration')->unique()->nullable();
             $table->string('reg_date')->nullable();
-            $table->string('km')->nullable();
+            $table->string('kms')->nullable();
             $table->timestamps();
         });
     }

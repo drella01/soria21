@@ -12,7 +12,7 @@
                     <li><a href="#"><i class="xv-basic_eye"></i></a></li>
                 </ul>
                 <div class="productInfo">
-                    <h6><a href="#">JOGGING PANTS</a></h6>
+                    <h6><a href="#">{{trans('custom.rent')}}</a></h6>
                     <span class="price">295.00 USD</span>
                 </div>
             </li>
@@ -23,13 +23,12 @@
                     <div class="prodLay"></div>
                 </div>
                 <ul class="links">
-                    <li><a href="#"><i class="xv-basic_heart"></i></a></li>
-                    <li><a href="#" class="add_to_cart_button"><i class="xv-ecommerce_cart_content"></i></a></li>
-                    <li><a href="#"><i class="xv-basic_eye"></i></a></li>
+                    <h6>See our offer</h6>
+                    <li><a href="{{ route('types.index', $type->name) }}"><i class="xv-basic_eye"></i></a></li>
                 </ul>
                 <div class="productInfo">
-                    <h6><a href="#">WOOD EFFECT SUNGLASSES</a></h6>
-                    <span class="price">95.00 USD</span>
+                    <h6><a href="#">{{ trans('custom.'.$type->name) }}</a></h6>
+                    <span class="price">{{ $type->vehicles->count() }} units avaliable</span>
                 </div>
             </li>
             @endforeach

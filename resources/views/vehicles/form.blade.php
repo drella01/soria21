@@ -7,7 +7,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="registration">Registration</label>
-                <input name="text" type="text" class="form-control" id="registration">
+                <input name="registration" type="text" class="form-control" id="registration">
             </div>
             <div class="form-group col-md-4">
                 <label for="type">Type</label>

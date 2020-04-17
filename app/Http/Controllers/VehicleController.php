@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Vehicle;
 use App\VehicleType;
+use App\Photo;
 use Illuminate\Http\Request;
+use Validator;
+use Storage;
 
 class VehicleController extends Controller
 {
@@ -37,8 +40,10 @@ class VehicleController extends Controller
      */
     public function store(Request $request)
     {
-        /*if($request->has('file')){
+        $vehicle = Vehicle::create($request->all());
+        if($request->has('file')){
             $rules=[];
+            $x = 1;
             foreach($request->file as $file){
                 $rules = array('file'=>'mimes:pdf,png,jpeg,jpg,gif|max:2000');
                 $validator = Validator::make(array('file' => $file), $rules);
@@ -46,15 +51,18 @@ class VehicleController extends Controller
                 {
                     return redirect()->back()->withErrors($validator)->withInput();
                 }
-                $path = 'files/refund_attached';
+                $path = 'public/files/vehicles';
                 $response = Storage::makeDirectory($path);
-                $filename = $file->getClientOriginalName();
+                //$filename = $file->getClientOriginalName();
+                $extension = $file->getClientOriginalExtension();
+                $filename = $vehicle->registration.'_'.$x.'.'.$extension;
                 $path = Storage::putFileAs($path, $file, $filename);
-                $refundfile = RefundFile::create(['path'=>$path]);
-                $refund->files()->save($refundfile);
+                $photo = Photo::create(['url'=>$path]);
+                $vehicle->photos()->save($photo);
+                $x += $x;
             }
-        }*/
-        dd(count(request()->file));
+        }
+        return ("Creado");
     }
 
     /**
@@ -65,7 +73,8 @@ class VehicleController extends Controller
      */
     public function show(Vehicle $vehicle)
     {
-        //
+        $vehicle->with('photos')->get();
+        return($vehicle->with('photos')->get());
     }
 
     /**

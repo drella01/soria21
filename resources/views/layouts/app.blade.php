@@ -52,6 +52,7 @@
     </style>
 </head>
 <body>
+    @yield('head')
     <div class="bodyWrap" id="app">
         @include('layouts.header.master')
         <main class="py-4">

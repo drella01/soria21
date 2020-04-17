@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome2');
 });
 
-Route::get('/{vehicleType}', 'VehicleTypeController@index')->name('vehicles.index');
+Route::get('/{vehicleType}', 'VehicleTypeController@index')->name('types.index');
 Route::resource('vehicles', 'VehicleController');
 Auth::routes();
 

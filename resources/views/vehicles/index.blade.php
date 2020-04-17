@@ -1,8 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-    <h1>Id:{{$type->id}}</h1>
-    <h2>Name:{{$type->name}}</h2>
+    <h1>TYPE:{{$type->name}}</h1>
     <table class="table">
         <thead>
             <tr>
@@ -13,14 +12,18 @@
             </tr>
         </thead>
         <tbody>
-            @foreach ($type->vehicles as $vehicle)
-            <tr>
-                <td>{{ $vehicle->id }}</td>
-                <td>{{ $vehicle->registration }}</td>
-                <td>{{ $vehicle->brand }}</td>
-                <td>{{ $vehicle->model }}</td>
-            </tr>
-            @endforeach
+            @forelse ($type->vehicles as $vehicle)
+                <tr>
+                    <td>{{ $vehicle->id }}</td>
+                    <td><a href="{{ route('vehicles.show', $vehicle) }}">{{ $vehicle->registration }}</a></td>
+                    <td>{{ $vehicle->brand }}</td>
+                    <td>{{ $vehicle->model }}</td>
+                </tr>
+            @empty
+                <tr>
+                    <td>NO WEHICLES AVALIABLE</td>
+                </tr>
+            @endforelse
         </tbody>
     </table>
 </div>
