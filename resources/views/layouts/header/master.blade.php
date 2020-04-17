@@ -79,66 +79,64 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand navbar-light clearfix bg-white shadow-sm" style="background-color:#85929e">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="">
-                            <img src="{{ url('storage/icon.png') }}" alt="">
-                            <p><h6>Tractor</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="">
-                            <img src="{{ url('storage/icon2.png') }}" alt="" >
-                            <p><h6>Truck</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon-8.png') }}" alt="" >
-                            <p><h6>Tanktrailer</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/tankcontainers.png') }}" alt="" >
-                            <p><h6 style="size:100%">Tunkcontainer</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon-4.png') }}" alt="" >
-                            <p><h6>Trailer</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon-3.png') }}" alt="" >
-                            <p><h6>Drawbartrailer</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon-6.png') }}" alt="" >
-                            <p><h6>Van</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon-9.png') }}" alt="" >
-                            <p><h6>Machinery</h6></p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="button btn-nav" href="" style="text-decoration:none;">
-                            <img src="{{ url('storage/icon_parts.png') }}" alt="" >
-                            <p><h6>Parts</h6></p>
-                        </a>
-                    </li>
-                </ul>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand navbar-light clearfix bg-white shadow-sm" style="background-color:#85929e">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon.png') }}" alt="">
+                        <p><h6>Tractor</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="">
+                        <img src="{{ url('storage/icon2.png') }}" alt="" >
+                        <p><h6>Truck</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon-8.png') }}" alt="" >
+                        <p><h6>Tanktrailer</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/tankcontainers.png') }}" alt="" >
+                        <p><h6 style="size:100%">Tunkcontainer</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon-4.png') }}" alt="" >
+                        <p><h6>Trailer</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon-3.png') }}" alt="" >
+                        <p><h6>Drawbartrailer</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon-6.png') }}" alt="" >
+                        <p><h6>Van</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon-9.png') }}" alt="" >
+                        <p><h6>Machinery</h6></p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="button btn-nav" href="" style="text-decoration:none;">
+                        <img src="{{ url('storage/icon_parts.png') }}" alt="" >
+                        <p><h6>Parts</h6></p>
+                    </a>
+                </li>
+            </ul>
+    </nav>
     <nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color:#0000CC">
         <div class="container" style="margin-left:10px">
             <ul class="breadcrumb" style="color:#ffffff; background-color:transparent;">

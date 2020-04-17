@@ -75,7 +75,7 @@
                         <li class="portfolioItem filter-active filter-item filter1" data-sequence="{{ $type->id }}">
                             <div class="folioInner">
                                 <div class="visual imgAsBG" style="background-image: url(&quot;assets/img/unsplash/10.jpg&quot;);">
-                                    <img src="storage/{{$type->name}}.jpg" alt="asd">
+                                    <img src="storage/{{$type->name}}.jpg" alt="asd" style="max-width:100%;">
                                     <div class="folioLay">
                                     </div>
                                 </div>

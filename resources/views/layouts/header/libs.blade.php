@@ -14,10 +14,15 @@
 
 <style>
         .btn-nav{
-            width: 80px;
+            width: 120px;
             height: 80px;
+            padding: 8px;
             background-color: #ffffff;
-            text-decoration:none;
+            text-decoration:none !important;
+        }
+
+        .btn-nav>img{
+            max-height: 100% !important;
         }
 
         .banner-logo>img {

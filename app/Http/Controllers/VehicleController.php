@@ -37,7 +37,24 @@ class VehicleController extends Controller
      */
     public function store(Request $request)
     {
-        dd(request()->all());
+        /*if($request->has('file')){
+            $rules=[];
+            foreach($request->file as $file){
+                $rules = array('file'=>'mimes:pdf,png,jpeg,jpg,gif|max:2000');
+                $validator = Validator::make(array('file' => $file), $rules);
+                if($validator->fails())
+                {
+                    return redirect()->back()->withErrors($validator)->withInput();
+                }
+                $path = 'files/refund_attached';
+                $response = Storage::makeDirectory($path);
+                $filename = $file->getClientOriginalName();
+                $path = Storage::putFileAs($path, $file, $filename);
+                $refundfile = RefundFile::create(['path'=>$path]);
+                $refund->files()->save($refundfile);
+            }
+        }*/
+        dd(count(request()->file));
     }
 
     /**
