@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Language Lines
+    | Pagination Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used by the paginator library to build
@@ -13,14 +13,7 @@ return [
     |
     */
 
-    'drawbar-trailer' => 'Drawbar trailer',
-    'machinery-parts' => 'Machinery parts',
-    'machinery' => 'Machinery',
-    'tank-container' => 'Tank container',
-    'tank-trailer' => 'Tank trailer',
-    'tractor' => 'Tractor',
-    'trailer' => 'Trailer',
-    'truck' => 'Truck',
-    'van' => 'Van',
+    'previous' => '&laquo; Anterior',
+    'next'     => 'Siguiente &raquo;',
 
 ];

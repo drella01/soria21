@@ -13,14 +13,14 @@ return [
     |
     */
 
-    'drawbar-trailer' => 'Drawbar trailer',
-    'machinery-parts' => 'Machinery parts',
-    'machinery' => 'Machinery',
-    'tank-container' => 'Tank container',
-    'tank-trailer' => 'Tank trailer',
-    'tractor' => 'Tractor',
+    'drawbar-trailer' => 'Semirremolques',
+    'machinery-parts' => 'Accesorios',
+    'machinery' => 'Maquinaria',
+    'tank-container' => 'Contenedores',
+    'tank-trailer' => 'Cisternas',
+    'tractor' => 'Cabeza tractora',
     'trailer' => 'Trailer',
-    'truck' => 'Truck',
-    'van' => 'Van',
+    'truck' => 'Rígido',
+    'van' => 'Camioneta',
 
 ];

@@ -142,6 +142,12 @@
             <ul class="breadcrumb" style="color:#ffffff; background-color:transparent;">
                 <li style="color:#ffffff;">You are here: Home<span class="divider"></span></li>
             </ul>
+            <!--ul class="breadcrumb" style="color:#ffffff; background-color:transparent;">
+                <li><a href="{{ url('locale/en') }}" ><i class="fa fa-language"></i>
+                <img src="/storage/Flags/UK.png" style="max-width:10%" alt="UK"></a></li>
+                <li><a href="{{ url('locale/es') }}" ><i class="fa fa-language"></i>
+                    <img src="/storage/Flags/Spain.png" style="max-width:10%" alt="ES"></a></li>
+            </ul-->
         </div>
     </nav>
 </header>
